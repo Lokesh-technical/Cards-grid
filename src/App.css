@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+
+.main {
+  margin: 20px  50px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 1px solid #e6e9f8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-input {
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-weight: 500;
+}
+
+.nav-item {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar li {
+  margin-right: 10px;
+  color: #909497;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0;
+  
+}
+
+.user-card {
+  padding: 20px ;
+  background-color: #e6e9f829 !important;
+  transition: transform 0.3s;
+  
+}
+
+.user-card:hover {
+  transform: scale(1.05); 
+}
+
+.user-card .card-header {
+  padding: 10px;
+}
+
+
+.image {
+  width: 6rem !important;
+  height: 6rem !important;
+  border-radius: 50%;
+}
+
+.cards-items {
+  padding: 1px 6px;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px; 
+  width: min-content;
+  font-weight: 500;
+  color: #488ed9;
+  font-size: small;
+}
+
+.cards-item-container {
+  display: flex ;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card-name {
+  margin-bottom: 0 !important;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+}
+
+.card-desc {
+  margin-top: 2px !important;
+  font-weight: 500;
+}
+
+.nav-item.active {
+  background-color: #83a1fb;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 768px) {
+  .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

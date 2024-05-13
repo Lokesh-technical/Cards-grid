@@ -1,0 +1,96 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Lelah Nichols",
+        "description": "Troy.MI",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["clothes", "stem"]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "description": "UI/UX Designer",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 3,
+        "name": "Annie Rice",
+        "description": "Austin, TX",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 4,
+        "name": "jesus Weiss",
+        "description": "Fort Worth, TX",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 5,
+        "name": "Amy Campbell",
+        "description": "Warrior.AL",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 6,
+        "name": "Anthony S.Morin",
+        "description": "UI/UX Designer",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 7,
+        "name": "Jane Smith",
+        "description": "UI/UX Designer",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 8,
+        "name": "Jane Smith",
+        "description": "UI/UX Designer",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      },
+      {
+        "id": 9,
+        "name": "Jane Smith",
+        "description": "UI/UX Designer",
+        "imageSrc": "https://via.placeholder.com/150",
+        "items": ["headset", "speed", "shoes", "tech"]
+      }
+    ],
+    "navItems": [
+      {
+        "id": 1,
+        "label": "Reputation",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "active": true,
+        "label": "New users",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "label": "Voters",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "label": "Editors",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "label": "Moderators",
+        "link": "#"
+      }
+    ]
+  }
+  
